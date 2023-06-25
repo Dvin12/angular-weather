@@ -1,0 +1,14 @@
+.weather {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 20px;
+
+  .temp {
+    font-size: 36px;
+  }
+
+  .image {
+    width: 70px;
+  }
+}

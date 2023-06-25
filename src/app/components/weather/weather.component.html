@@ -1,1 +1,9 @@
-<p>HELLO WORLD!!!!!!!!!!</p>
+<div class="weather">
+  <p class="temp">{{ temperature }}°C</p>
+  <img
+    class="image"
+    *ngIf="weatherImage; weatherDescription"
+    [src]="weatherImage"
+    [alt]="weatherDescription"
+  />
+</div>
